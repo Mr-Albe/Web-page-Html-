@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ledor|Agency Immobilizer</title>
+    <title>Lendor|Agency Immobilizer</title>
     <link rel="stylesheet" href="./assets/CSS/styles.css">
 
     <!--===================== MOBIL CSS  ================== -->
@@ -48,7 +48,7 @@
     <section class="containers">
        <div class="model">
             <h3>
-                Nos dernières acquisistions
+                Nos dernieres acquisistions
             </h3>
             <div class="gridd">
                 <div class="gridd-item">
@@ -122,7 +122,7 @@
                 <p><i class="fa-solid fa-quote-left"></i> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur nisi in iure! sit amet consectetur adipisicing elit. <i class="fa-solid fa-quote-right"></i></p>
                 <div class="ident1">
                     <img src="./assets/Images/clie1.jpg" alt="">
-                    <h5>Léo Darline</h5>
+                    <h5>Leo Darline</h5>
                     <p class="content--p">Manicure</p>
                 </div>
             </div>
@@ -143,8 +143,8 @@
                 
                 <div class="ident1">
                     <img src="./assets/Images/cli1.jpg" alt="">
-                    <h5>Mrs Théismé</h5>
-                    <p class="content--p">Couturière</p>
+                    <h5>Mrs Theisme</h5>
+                    <p class="content--p">Couturiere</p>
                     
                 </div>
             </div>

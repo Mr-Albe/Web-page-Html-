@@ -8,22 +8,12 @@
     .card0-text, .card0--img {
         flex: 1 1 100%;
     }
-
-    .header {
-        height: 55vh;
-
-    }
- 
-    .container {
-        margin-top: -30px; 
-        min-height: 100%;
-    } 
 } 
 
 @media screen and (max-width: 568px) {
-    header {
+    /* header {
         height: 20vh;
-    }
+    } */
     
 }
 
@@ -52,7 +42,6 @@
         text-align: center;
     }
 
-
     .ident {
         height: 30px;
         margin-right: 35px;
@@ -65,10 +54,7 @@
 
         width:50%;
     }
-     
-    .container {
-        min-height: 100%;
-    }
+
 }
 
 @media (max-width: 768px) {
@@ -116,7 +102,7 @@
     }
     
     .text-box p {
-      font-size: 18px;
+      font-size: 28px;
     }
   
     .grid {
@@ -138,15 +124,7 @@
     .rows {
         width: 100%;
     }
-    
-    /* .client-content {
-        width: 100%;
-    } */
-     
-    /* .header {
-        height: 50vh;
-    } */
-
+  
     form{
         width: 90%;
     }
@@ -154,6 +132,10 @@
     footer h5 {
         font-size: .7rem;
         letter-spacing: .1rem;
+    }
+
+    .foot--contact {
+        position: fixed;
     }
 
 }
@@ -208,17 +190,7 @@
         border-radius: 50%;
         padding-top: 35px;
     }
-    
-    form {
-        margin-top: -150px; 
-        width: 100%;
-    }
 
-    form h2 {
-        font-size: 1rem;
-        
-    }
-  
 
     .card {
         height: 200px;
@@ -239,14 +211,6 @@
         display: block; 
     }
 
-    form {
-        margin-top: 70px;
-        width: 90%;
-        width: auto;
-        height: auto;
-
-    }
-
 }
 
 /* pour moyen devices */
@@ -262,6 +226,10 @@
 
     .swiper-button-prev {
         left: -1rem;
+    }
+
+    .foot--contact {
+        position: fixed;
     }
 
 }

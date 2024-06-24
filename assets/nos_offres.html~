@@ -3,7 +3,7 @@
 <head> <!-- Add missing head tag -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ledor|Agency Immobilizer</title>
+  <title>Lendor|Agency Immobilizer</title>
 
   <!--===================== CSS  ================== -->
   <link rel="stylesheet" href="./CSS/style.css">
@@ -24,10 +24,9 @@
             <a href="" class="logo"><i class="fas fa-crown"></i>Ledor</a>
             <i class="fa fa-bars" id="menuBtn"></i>
             <div class="nav-links" id="navLinks">
-                <i class="fa fa-times" id="closeBtn" style="display:none;"></i>
                 <ul>
                     <li><a href="../index.html">Accueil</a></li>
-                    <li><a href="nos_offres.html" class="activated">Nos offres</a></li>
+                    <li><a href="nos_offres.html"  class="activated">Nos offres</a></li>
                     <li><a href="nos-equipe.html">Notre équipe</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
