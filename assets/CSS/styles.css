@@ -193,14 +193,23 @@ nav .logo {
     justify-content: center;
 }
 
+ 
+/* Styles de base pour la carte */
 .cardd {
-    background: #fff;
-    width: 270px;
-    height: auto;
-    margin: 10px;
-    text-align: center;
-    margin-bottom: 25px;
-    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.6) ;
+    background: #fff; /* Couleur de fond blanche */
+    width: 270px; /* Largeur fixe */
+    height: auto; /* Hauteur automatique */
+    margin: 10px; /* Marge de 10px tout autour */
+    text-align: center; /* Texte centré */
+    margin-bottom: 25px; /* Marge inférieure de 25px */
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.6); /* Ombre portée */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition pour l'animation */
+}
+
+/* Animation lors du survol */
+.cardd:hover {
+    transform: scale(1.05); /* Agrandit la carte de 5% */
+    box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.8); /* Augmente l'ombre */
 }
 
 .cardd-img {

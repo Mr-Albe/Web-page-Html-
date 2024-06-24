@@ -169,13 +169,21 @@ width: 100%;
 }
 
 .cardd {
-  height: 300px;
-  width: 300px;
-  background: #fff;
+  height: 300px;/* Hauteur automatique */
+  width: 300px;/* Largeur fixe */
+  background: #fff; /* Couleur de fond blanche */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  text-align: center;
+  text-align: center;/* Texte centré */
+  box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.6); /* Ombre portée */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition pour l'animation */
+}
+
+/* Animation lors du survol */
+.cardd:hover {
+  transform: scale(1.05); /* Agrandit la carte de 5% */
+  box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.8); /* Augmente l'ombre */
 }
 
 .cardd-img {

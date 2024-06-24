@@ -22,6 +22,7 @@
     .rows {
         width: 100%;
     }
+
     .client-content {
         height: auto;
         text-align: center;
@@ -102,7 +103,7 @@
     }
     
     .text-box p {
-      font-size: 28px;
+      font-size: 20px;
     }
   
     .grid {
